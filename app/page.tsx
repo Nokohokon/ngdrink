@@ -6,7 +6,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="flex justify-between items-center p-6 md:p-8">
         <div className="text-2xl font-bold text-white">
-          <span className="text-cyan-400">NG</span>Drink
+          <span className="text-cyan-400">NG</span>Drink - Projekt zum Thema Unternehmensgründung
         </div>
         <div className="hidden md:flex space-x-6 text-white">
           <a href="#features" className="hover:text-cyan-400 transition-colors">Features</a>
