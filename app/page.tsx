@@ -29,7 +29,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300">
-              Jetzt kaufen - 1,99€
+              Schulprojekt - keine Bestellungen möglich
             </button>
             <button className="border-2 border-cyan-400 text-cyan-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300">
               Mehr erfahren
@@ -151,7 +151,7 @@ export default function Home() {
             <div className="text-xl text-gray-300">pro Dose</div>
           </div>
           <button className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-12 py-6 rounded-full font-bold text-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 mb-4">
-            Jetzt bestellen
+          Schulprojekt - keine Bestellungen möglich
           </button>
           <p className="text-sm text-gray-400">
             Kostenloser Versand ab 25€ • 30 Tage Geld-zurück-Garantie
@@ -192,6 +192,13 @@ export default function Home() {
               <li><a href="#" className="hover:text-cyan-400">Hilfe</a></li>
               <li><a href="#" className="hover:text-cyan-400">Versand</a></li>
               <li><a href="#" className="hover:text-cyan-400">Rückgabe</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-white font-semibold mb-4">Rechtliches</h4>
+            <ul className="text-gray-400 space-y-2">
+              <li><a href="https://konja-rehm.de/impressum" className="hover:text-cyan-400">Impressum</a></li>
+              <li><a href="https://konja-rehm.de/datenschutz" className="hover:text-cyan-400">Datenschutzbedingungen</a></li>
             </ul>
           </div>
         </div>
